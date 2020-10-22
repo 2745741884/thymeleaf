@@ -16,6 +16,7 @@ public class MyController {
         String message = "hello thymeleaf";
         model.addAttribute("message", message);
         System.out.println("hello------------");
+        System.out.println("feiran改");
         return "index";
     }
 
